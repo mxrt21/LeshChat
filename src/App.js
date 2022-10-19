@@ -42,6 +42,8 @@ function SignIn() {
     auth.signInWithPopup(provider);
   }
 
+  
+
   return (
     <>
       <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
@@ -62,6 +64,7 @@ function SignOut() {
 function ChatRoom() {
   const dummy = useRef();
   const messagesRef = firestore.collection('messages');
+  const query = messagesRef.orderBy('createdAt').limit();
 
   const [messages] = useCollectionData(query, { idField: 'id' });
 

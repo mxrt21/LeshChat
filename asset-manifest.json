@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LeshChat/static/css/main.1c27df89.css",
+    "main.js": "/LeshChat/static/js/main.537f8a46.js",
+    "static/js/787.fd333685.chunk.js": "/LeshChat/static/js/787.fd333685.chunk.js",
+    "index.html": "/LeshChat/index.html",
+    "main.1c27df89.css.map": "/LeshChat/static/css/main.1c27df89.css.map",
+    "main.537f8a46.js.map": "/LeshChat/static/js/main.537f8a46.js.map",
+    "787.fd333685.chunk.js.map": "/LeshChat/static/js/787.fd333685.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c27df89.css",
+    "static/js/main.537f8a46.js"
+  ]
+}
